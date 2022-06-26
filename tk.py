@@ -1,0 +1,13 @@
+from tkinter import *
+root = Tk()
+root.geometry("400x400")
+f1 = Frame(root)
+Label(f1,text="Name").grid(row=0,column=0,padx=10,pady=10,sticky="w")
+Label(f1,text="User ID").grid(row=1,column=0,padx=10,pady=10,sticky="w")
+Label(f1,text="Password").grid(row=2,column=0,padx=10,pady=10,sticky="w")
+Entry(f1).grid(row=0,column=1,padx=10,pady=10,sticky="w")
+Entry(f1).grid(row=1,column=1,padx=10,pady=10,sticky="w")
+Entry(f1).grid(row=2,column=1,padx=10,pady=10,sticky="w")
+Button(f1,text="Submit").grid(row=3,column=1,padx=10)
+f1.grid(row=0,column=0,padx=20,pady=25)
+root.mainloop()

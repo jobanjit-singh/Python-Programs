@@ -1,0 +1,6 @@
+acity=input("Enter the city 1:")
+bcity=input("Enter the city 2:")
+ccity=input("Enter the city 3:")
+print(acity)
+print(bcity)
+print(ccity)

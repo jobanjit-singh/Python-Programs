@@ -1,0 +1,2 @@
+('name ', 'class', ' rollno', 'mobile no', 'payment', 1)
+('jit code', 'youtube', '12', '*********', 'cash', 1)
